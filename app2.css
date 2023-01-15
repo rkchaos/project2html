@@ -1,0 +1,66 @@
+.li {
+    color: rgb(138, 25, 223);
+    font-size: large;
+    margin-top: 30px;
+}
+
+.Question {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.sample {
+    font-weight: bold;
+    font-size: large;
+}
+
+.number {
+    background-color: #E7E9EB;
+    border-radius: 2px;
+    padding-bottom: 100px;
+}
+
+.output {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.word {
+    background-color: #E7E9EB;
+    border-radius: 2px;
+    padding-bottom: 100px;
+}
+
+.example {
+    background-color: #E7E9EB;
+}
+
+.box {
+
+    margin-top: 2px;
+}
+
+.alt {
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 4px solid green;
+}
+.scanner{
+    color: green;
+      font-weight: bolder;
+    }
+    .import{
+        color: blueviolet;
+      }
+      .keyword{
+        color: blue;
+        font-weight: 700;
+      }
+      .string{
+        color: blue;
+      }

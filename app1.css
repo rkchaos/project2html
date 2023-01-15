@@ -1,0 +1,121 @@
+body{
+  font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.kumar a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+font-size: 17px;
+text-align: center;
+float: left;
+}
+.kumar{
+  background-color:green;
+overflow: hidden;
+}
+.kumar a:hover{
+  color: black;
+}
+.kumar a.active{
+background-color: rgb(0, 34, 96);
+color: white;
+
+}
+.dsa{
+  text-align: center;
+  margin-top: 60px;
+font-size: 80px;
+background-color: cornflowerblue;
+border-radius: 20px;
+
+}
+.li{
+  color: rgb(234, 0, 255);
+  font-size: large;
+  
+}
+.Questions{
+ font-style: italic;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+
+}
+.today{
+  color: brown;
+}
+.sample{
+  font-weight: bold;
+  font-size: large;
+}
+.number{
+background-color: #E7E9EB;
+border-radius: 2px;
+}
+.hero{
+  margin-left: 5px;
+
+}
+.output{
+  font-size: large;
+   font-weight:bold;
+
+}
+.word{
+background-color: #E7E9EB;
+}
+.example{
+  background-color: #E7E9EB;
+  }
+.box{
+
+margin-top: 2px;
+}
+.alt{
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-left: 4px solid green;
+}
+.keyword{
+  color: blue;
+  font-weight: 700;
+}
+.string{
+  color: blue;
+}
+.complier{
+background-color: green;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+font-weight: bolder;
+font-size: medium;
+
+}
+.complier:hover{
+  background-color: rgb(8, 203, 237);
+}
+.import{
+  color: blueviolet;
+}
+.scanner{
+color: rgb(6, 190, 241);
+  font-weight: bolder;
+}
+.next{
+  float: right;
+color: black;
+background-color: chartreuse;
+border-radius: 20px;
+padding: 10px 20px 10px 20px;
+}
+.pre{
+  color: black;
+  background-color: chartreuse;
+border-radius: 20px;
+padding: 10px 20px 10px 20px;
+}

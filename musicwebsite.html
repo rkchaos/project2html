@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="app1.css">
+</head>
+
+<body>
+  <div class="kumar">
+    <a class="active" href="Home">Home</a>
+    <a href="About">About</a>
+    <a href="Contact">Contact</a>
+    <a href="News">News</a>
+  </div>
+
+  <h1 class="dsa">DSA Questions</h1>
+
+  <li class="li">Question </li>
+  <span>
+    <p class="Questions">
+      1. You've to check whether a given number is prime or not. <br>
+      2. Take a number "t" as input representing count of input numbers to be tested. <br>
+      3. Take a number "n" as input "t" number of times. <br>
+      4. For each input value of n, print "prime" if the number is prime and "not prime" otherwise. <br>
+
+    </p>
+  </span>
+
+  <span class="sample">Sample input</span>
+
+  <div class="number">
+    <span class="hero">
+      2 <br>3 <br> 4 <br> 5 <br>
+    </span>
+  </div>
+
+  <br>
+  <span class="output">Sample output</span>
+  <div class="word">
+    prime <br> prime <br> not prime <br>prime</div>
+
+  <h3>Example</h3>
+  <div class="example">
+    <pre class="box">
+      <code class="codes">
+        <li class="alt">
+          <span>
+            <span>import java.util</span><span>.Scanner;</span>
+
+            <span class="keyword">class</span> <span>raj{</span>
+
+                <span class="keyword">public</span> <span class="keyword">static void</span> <span>main</main></span> <span>(</span> <span>String</span> <span>args[]){</span>
+
+                <span class="scanner">Scanner </span><span> sc=new Scanner</span> <span>(System.in);</span>  <span class="import">// import the scanner class first</span>
+                <span class="scanner">int</span> <span>t=sc.nextInt();</span>
+                 <span class="scanner">for</span><span>(int i=0;i< t</span> <span>;</span><span>i++</span><span>)</span><span>{</span>
+                 <span class="scanner">int</span> <span>n=sc.nextInt();</span>
+                 <span class="scanner">int</span> <span>count=0;</span>
+               <span class="scanner">for</span> <span>(</span> <span class="scanner">int</span> <span>div=2; div*div<=n;div++){</span>
+                <span>if(n%div==0){</span>
+                  <span>count++;</span>
+                  <span>break;</span>
+                   <span>}</span>
+                  <span>}</span>
+                 <span>if(count==0){</span>
+                  <span>System.out.println("prime");</span>
+                  <span>}</span>
+                  <span>else{</span>
+                    <span>System.out.println("not prime");</span>
+                  <span>}</span>
+                <span>}</span>
+              <span>}</span>
+
+          <span>}</span>
+          </span>
+      </li>
+      </code>
+    </pre>
+  </div>
+  <span>
+    <a href="https://www.programiz.com/java-programming/online-compiler/"><input class="complier" type ="button" value="Try yourself"></a>
+  </span>
+ 
+  <p>
+    <input class="pre" type="button" value="Pre">  <a href="second.html"><input class="next" type="button" value="Next"></a>
+  </p>
+
+</body>
+
+</html>
